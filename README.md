@@ -5,8 +5,7 @@ Border-Peeling Clustering
 
 This repository contains a python implementation for the Border-Peeling clustering algorithm as well as the datasets that were used to evaluate the method.
 
-Installation instructions
-=========================
+##Installation instructions##
 
 In our implementation We use numpy, scipy and scikit-learn packages.
 We recommend using the Anaconda python distribution which installs these packages automatically.
@@ -26,8 +25,7 @@ If you are using the pip package manager, you can install it by running the comm
 pip install python_algorithms
 ```
 
-Usage instructions
-==================
+##Usage instructions##
 
 In order to run border peeling clustering, run the file run_bp.py using python.
 The script uses the same parameters that are described in the experiments section of the paper.
@@ -54,8 +52,7 @@ optional arguments:
 
 ```
 
-Input and output file format
-============================
+##Input and output files format##
 
 The expected input file format is a comma separated file, where each row represents a different multi-dimensional data point.
 If ground truth is provided (and the --no-labels flag isn't specified),
@@ -76,8 +73,7 @@ The output file format is a multi-line file, where each line contains the label 
 In case ground truth is provided, the Adjusted Rand Index (ARI) and Adjusted Mutual Information scores are printed.
 
 
-Data files and sampling
-================
+##Data files and sampling##
 
 The synthetic datasets <i>[1,2,3]</i> that were evaluated in the paper are available under the "synthetic_data" folder.
 The datasets were downloaded from https://cs.joensuu.fi/sipu/datasets/ and then converted to a comma separated format.
