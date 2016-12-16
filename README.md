@@ -3,7 +3,7 @@ Border-Peeling Clustering
 
 ![Illustration of Border-Peeling clustering](/docs/border_peeling.png)
 
-This repository contains a python implementation for the Border-Peeling clustering algorithm as well as the datasets that were used to evaluate the method.
+This repository contains a python implementation for the Border-Peeling clustering algorithm presented in <a href="https://arxiv.org/abs/1612.04869" target="_blank">https://arxiv.org/abs/1612.04869</a> as well as the datasets that were used to evaluate the method.
 
 ##Installation instructions##
 
