@@ -3,18 +3,23 @@ Border-Peeling Clustering
 
 ![Illustration of Border-Peeling clustering](/docs/border_peeling.png)
 
-This repository contains a python implementation for the Border-Peeling clustering algorithm presented in <a href="https://arxiv.org/abs/1612.04869" target="_blank">https://arxiv.org/abs/1612.04869</a> as well as the datasets that were used to evaluate the method.
+This repository contains a python implementation for the clustering algorithm presented in "Border-Peeling Clustering" by Nadav Bar, Hadar Averbuch-Elor and Daniel Cohen-Or: <a href="https://arxiv.org/abs/1612.04869" target="_blank">https://arxiv.org/abs/1612.04869</a>. 
+
+The repository also contains the datasets that were used in the paper to evaluate the method.
 
 ##Installation instructions##
 
-In our implementation We use numpy, scipy and scikit-learn packages.
+In our implementation we use the numpy, scipy and scikit-learn packages.
 We recommend using the Anaconda python distribution which installs these packages automatically.
 
 Anaconda can be downloaded from here: https://www.continuum.io/downloads
 
 If you wish to install the packages separately, please follow the instructions specified here:
+
 https://docs.scipy.org/doc/numpy-1.10.0/user/install.html
+
 https://www.scipy.org/install.html
+
 http://scikit-learn.org/stable/install.html
 
 For the UnionFind implementation We also use the python_algorithms package: https://pypi.python.org/pypi/python_algorithms
