@@ -3,9 +3,24 @@ Border-Peeling Clustering
 
 ![Illustration of Border-Peeling clustering](/docs/border_peeling.png)
 
-This repository contains a python implementation for the clustering algorithm presented in "Border-Peeling Clustering" by Nadav Bar, Hadar Averbuch-Elor and Daniel Cohen-Or: <a href="https://arxiv.org/abs/1612.04869" target="_blank">https://arxiv.org/abs/1612.04869</a>. 
+This repository contains a python implementation of the clustering algorithm presented in:
 
-The repository also contains the datasets that were used in the paper to evaluate the method.
+   <b><i>Bar Nadav, Hadar Averbuch-Elor, and Daniel Cohen-Or. "Border-Peeling Clustering." arXiv preprint arXiv:1612.04869 (2016)</i></b>
+
+The paper is available online at: <a href="https://arxiv.org/abs/1612.04869" target="_blank">https://arxiv.org/abs/1612.04869</a>. 
+
+This repository also contains the datasets that were used in the paper to evaluate the method.
+
+If you use this implementation in you work, please add a reference/citation to the paper. You can use the following bibtex entry:
+
+```
+@article{bar2016border,
+  title={Border-Peeling Clustering},
+  author={Bar, Nadav and Averbuch-Elor, Hadar and Cohen-Or, Daniel},
+  journal={arXiv preprint arXiv:1612.04869},
+  year={2016}
+}
+```
 
 ##Installation instructions##
 
