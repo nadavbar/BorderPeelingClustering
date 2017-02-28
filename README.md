@@ -27,7 +27,9 @@ If you use this implementation in you work, please add a reference/citation to t
 In our implementation we use the numpy, scipy and scikit-learn packages.
 We recommend using the Anaconda python distribution which installs these packages automatically.
 
-Anaconda can be downloaded from here: https://www.continuum.io/downloads
+**Please note that the current code only supports python 2.7.**
+
+Anaconda for python 2.7 can be downloaded from here: https://www.continuum.io/downloads
 
 If you wish to install the packages separately, please follow the instructions specified here:
 
